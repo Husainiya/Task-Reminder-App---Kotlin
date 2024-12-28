@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="task_title">Task Title</string>
+    <string name="save_task">Save Task</string>
+    <string name="add_new_task">Add new task</string>
+    <string name="Update_task">update_task</string>
+    <string name="set_date">Set Date</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+    <string name="set_date1">Set Date</string>
+    <string name="category_prompt">ct</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="edit">Edit</string>
+    <string name="task_description">Task Description</string>
+    <string name="update">Update</string>
+    <string name="select_date">Select Date</string>
+    <string name="title1">Title</string>
+    <string name="select_time">Select Time</string>
+    <string name="select_alarm_tone">Select Alarm Tone</string>
+    <string name="save">Save</string>
+    <string name="add_task">Add Task</string>
+    <string name="search">Search</string>
+    <string name="search1">Search</string>
+    <string name="history">History</string>
+    <string name="todoapp">TODOAPP</string>
+    <string name="daily_task">Daily Task</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="upcoming_task">Upcoming Task</string>
+    <string name="select_alarm_tone1">Select Alarm Tone</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="new_task">New Task</string>
+    <string name="home">HOME</string>
+    <string name="home1">HOME</string>
+    <string-array name="alarm_tones">
+        <item>Ringtone 1</item>
+        <item>Ringtone 2</item>
+        <item>Ringtone 3</item>
+    </string-array>
+
+</resources>

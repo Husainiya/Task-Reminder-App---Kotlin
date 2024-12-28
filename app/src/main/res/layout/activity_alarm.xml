@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AlarmActivity">
+
+    <!-- AppBar and Toolbar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFC107"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarAddTask"
+            app:title="ALARM"
+            app:titleTextColor="#151615"
+            app:navigationIcon="@drawable/baseline_arrow_back_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0AA09" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Centered TimePicker with top and bottom margins -->
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="#FFC107"
+        android:numbersTextColor="#0C0D0C"
+        android:layout_marginBottom="40dp"
+        android:timePickerMode="spinner" />
+
+    <!-- Set Alarm Button -->
+
+    <!-- Title for Reminder List -->
+    <Button
+        android:id="@+id/setAlarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="#090909"
+        android:text="Set Alarm"
+        android:textColor="#FFC107"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/reminderListTitle"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:paddingTop="16dp"
+        android:text="Reminders"
+        android:textColor="#0E0F0E"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- ListView for Reminders -->
+    <ListView
+        android:id="@+id/reminderListView"
+        android:layout_width="match_parent"
+        android:background="#FFC107"
+        android:layout_marginBottom="2dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".StopwatchActivity">
+
+    <!-- Toolbar at the top -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarAddTask"
+            android:layout_width="394dp"
+            android:layout_height="wrap_content"
+            android:background="#E0AA09"
+            app:titleTextColor="#1B1D1B"
+
+            app:navigationIcon="@drawable/baseline_arrow_back_24"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="STOP WATCH" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Timer centered horizontally -->
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:00:00"
+        android:background="#252825"
+        android:paddingBottom="120dp"
+        android:textSize="80sp"
+        android:textColor="#FFC107"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Horizontal layout for the buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <!-- Start Button -->
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E0AA09"
+            android:text="Start"
+            android:textColor="#121111"
+            android:layout_marginEnd="10dp"/>
+
+        <!-- Stop Button -->
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E0AA09"
+            android:text="Stop"
+            android:textColor="#121111"
+            android:layout_marginEnd="10dp"/>
+
+        <!-- Reset Button -->
+        <Button
+            android:id="@+id/btnReset"
+            android:backgroundTint="#E0AA09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#121111"
+            android:text="Reset"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F1F8F1"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- TextView for the reminder -->
+    <TextView
+        android:id="@+id/reminderTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#0C0D0C"
+        android:text="Reminder Text"
+        android:textSize="20sp"
+        android:paddingEnd="8dp" />
+
+    <!-- Edit button -->
+    <Button
+        android:id="@+id/editReminderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFC107"
+        android:backgroundTint="#090909"
+        android:text="Edit" />
+
+    <!-- Delete button -->
+    <Button
+        android:id="@+id/deleteReminderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#090909"
+        android:textColor="#FFC107"
+        android:text="Delete"
+        android:layout_marginStart="8dp" />
+
+</LinearLayout>
