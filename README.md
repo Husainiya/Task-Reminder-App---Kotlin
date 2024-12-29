@@ -1,22 +1,22 @@
-# Task Reminder App
+# Task Reminder App - Kotlin
 
 ## Overview
-This is a Kotlin-based Task Reminder application designed to help users efficiently manage their daily tasks. Developed in Android Studio, the app includes functionalities such as task reminders, an alarm feature, and a stopwatch. It utilizes SharedPreferences for data persistence, ensuring that user preferences and task data are saved locally.
+This is a Kotlin-based Task Reminder application designed to help users efficiently manage their daily tasks. Developed in Android Studio, the app includes functionalities such as task reminders, an alarm feature, and a stopwatch. It utilizes **Room Database** for data persistence, ensuring that user tasks and preferences are saved locally in a structured and reliable manner.
 
 ---
 
 ## Features
 
-### 1. Alarm Functionality
+### 1. Alarm Functionality ⏰
 - Set alarms to remind you of specific tasks at a chosen time.
-- Customize alarm tones and vibration settings.
+- Customize alarm tones and vibration settings for a personalized experience.
 
-### 2. Task Reminder List
+### 2. Task Reminder List 📋
 - Add, edit, and delete tasks with ease.
-- View all tasks in a simple and user-friendly list interface.
+- View all tasks in a user-friendly list interface.
 - Mark tasks as completed when done.
 
-### 3. Stopwatch
+### 3. Stopwatch ⏱️
 - A built-in stopwatch to time activities or measure task durations.
 - Start, pause, and reset the stopwatch as needed.
 
@@ -24,7 +24,7 @@ This is a Kotlin-based Task Reminder application designed to help users efficien
 
 ## Technology Stack
 - **Language:** Kotlin
-- **Persistence:** SharedPreferences
+- **Persistence:** Room Database
 - **Development Environment:** Android Studio
 
 ---
@@ -47,9 +47,11 @@ This is a Kotlin-based Task Reminder application designed to help users efficien
 4. Access the **Stopwatch** feature for timing activities.
 
 ---
-#Screenshotes
-![image alt](https://github.com/Husainiya/Task-Reminder-App---Kotlin/tree/1ddf47f13ae2fbe346cab9a84505ed09214a2027/Screenshot)
+
+## Screenshots
+![Task Reminder Screenshot](https://github.com/Husainiya/Task-Reminder-App---Kotlin/tree/1ddf47f13ae2fbe346cab9a84505ed09214a2027/Screenshot)
+
+---
 
 ## Contact
 For any inquiries or feedback, please reach out at [hsynyhsn1122@gmail.com].
-
